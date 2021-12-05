@@ -1,0 +1,219 @@
+if game:GetService("CoreGui"):FindFirstChild("FluxLib") then
+    game:GetService("CoreGui"):FindFirstChild("FluxLib"):Destroy()
+end
+local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/LuciferNzqxz/BAMBYZ/main/LxifLib")()
+local win = Flux:Window("Anime Training", "", Color3.fromRGB(255,0,0), Enum.KeyCode.RightControl)
+local tab = win:Tab("Main", "http://www.roblox.com/asset/?id=6023426915")
+tab:Button("Credit: Thziin YT#2105", "Thziin YT#2105", function()
+Flux:Notification("Make By Thziin  YT", "Done")
+end)
+tab:Label("Discord Server :  ")
+tab:Button("Nao tenho Discord", "Nao tenho Discord", function()
+setclipboard("Nao Tenho Discord")
+end)
+tab:Line()
+local AutoFarm = win:Tab("Auto Traning", "http://www.roblox.com/asset/?id=6022668888")
+AutoFarm:Button("Starter World", "",false, function(state)
+end)
+AutoFarm:Toggle("Auto Training", "",false, function(State)
+_G.Autotap = State
+  while _G.Autotap do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(800.300049, 22.2542953, -437.693665, 0.687407315, 2.19912533e-08, 0.726272106, -3.37541657e-08, 1, 1.66825664e-09, -0.726272106, -2.56614818e-08, 0.687407315)
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteEvents.Train
+Event:FireServer()
+wait(.1)
+end
+end)
+AutoFarm:Line()
+AutoFarm:Button("One piece", "",false, function(state)
+end)
+AutoFarm:Toggle("Auto Training", "",false, function(State)
+_G.Autotap = State
+  while _G.Autotap do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1235.82288, 29.0446205, 852.361145, -0.580748916, -1.53973865e-08, 0.814082742, -5.7924801e-08, 1, -2.2408507e-08, -0.814082742, -6.01692989e-08, -0.580748916)
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteEvents.Train
+Event:FireServer()
+wait(.1)
+end
+end)
+AutoFarm:Line()
+AutoFarm:Button("Naruto", "",false, function(state)
+end)
+AutoFarm:Toggle("Auto Training", "",false, function(State)
+_G.Autotap = State
+  while _G.Autotap do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1122.1604, 28.594368, 553.726563, 0.244742081, -3.11375388e-08, 0.96958822, 2.18106049e-08, 1, 2.66087863e-08, -0.96958822, 1.4635015e-08, 0.244742081)
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteEvents.Train
+Event:FireServer()
+wait(.1)
+end
+end)
+AutoFarm:Line()
+AutoFarm:Button("My Hero Academy", "",false, function(state)
+end)
+AutoFarm:Toggle("Auto Training", "",false, function(State)
+_G.Autotap = State
+  while _G.Autotap do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(34.4962234, 31.6687279, 1573.34326, -0.95850873, 8.96564671e-08, -0.285063207, 9.94657583e-08, 1, -1.99335837e-08, 0.285063207, -4.74605422e-08, -0.95850873)
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteEvents.Train
+Event:FireServer()
+wait(.1)
+end
+end)
+local AutoFarm = win:Tab("Auto Buy Egg", "http://www.roblox.com/asset/?id=6022668888")
+AutoFarm:Toggle("Buy DBZ", "",false, function(State)
+_G.Autotap = State
+  while _G.Autotap do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(892.540222, 21.4639549, -374.15683, -0.730355978, -1.33490037e-08, -0.683066726, -1.11852154e-08, 1, -7.58317409e-09, 0.683066726, 2.10183204e-09, -0.730355978)
+local A_1 = "Start"
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteFunctions.UseMachine
+Event:InvokeServer(A_1, A_2)
+wait(.7)
+end
+end)
+AutoFarm:Toggle("Buy One Piece", "",false, function(State)
+_G.Autotap = State
+  while _G.Autotap do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1293.56995, 28.7045212, 802.724182, 0.999747157, -9.16312644e-08, -0.0224865619, 9.29305983e-08, 1, 5.67375871e-08, 0.0224865619, -5.88129296e-08, 0.999747157)
+local A_1 = "OnePiece"
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteFunctions.UseMachine
+Event:InvokeServer(A_1, A_2)
+wait(.7)
+end
+end)
+AutoFarm:Toggle("Buy Naruto", "",false, function(State)
+_G.Autotap = State
+  while _G.Autotap do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1019.52423, 27.6803703, 531.837769, -0.0942524076, -3.04561532e-08, -0.995548308, 3.53395642e-08, 1, -3.39380755e-08, 0.995548308, -3.83809891e-08, -0.0942524076)
+local A_1 = "Naruto"
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteFunctions.UseMachine
+Event:InvokeServer(A_1, A_2)
+wait(.7)
+end
+end)
+AutoFarm:Toggle("Buy MHA", "",false, function(State)
+_G.Autotap = State
+  while _G.Autotap do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(16.8577824, 31.4987106, 1470.21838, 0.994636118, 9.80354464e-09, -0.10343565, -1.52104978e-08, 1, -5.14848182e-08, 0.10343565, 5.27819708e-08, 0.994636118)
+local A_1 = "MHA"
+local A_2 = true
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteFunctions.UseMachine
+Event:InvokeServer(A_1, A_2)
+wait(.7)
+end
+end)
+local AutoFarm = win:Tab("AutoFarm Boss", "http://www.roblox.com/asset/?id=6022668888")
+AutoFarm:Toggle("General", "",false, function(State)
+_G.Autotap = State
+  while _G.Autotap do wait()
+local A_1 = "Punch"
+local A_2 = Vector3.new(643.89440917969, 25.724145889282, -297.49349975586)
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteEvents.Attack
+Event:FireServer(A_1, A_2)
+local A_1 = "Punch"
+local A_2 = game:GetService("Workspace").General
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteEvents.Damage
+Event:FireServer(A_1, A_2)
+wait(.1)
+end
+end)
+AutoFarm:Toggle("Fish Lord", "",false, function(State)
+_G.Autotap = State
+  while _G.Autotap do wait()
+local A_1 = "Punch"
+local A_2 = Vector3.new(1082.6407470703, 32.036499023438, 851.03350830078)
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteEvents.Attack
+Event:FireServer(A_1, A_2)
+local A_1 = "Punch"
+local A_2 = game:GetService("Workspace")["Fish Lord"]
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteEvents.Damage
+Event:FireServer(A_1, A_2)
+wait(.1)
+end
+end)
+AutoFarm:Toggle("Black Ops", "",false, function(State)
+_G.Autotap = State
+  while _G.Autotap do wait()
+local A_1 = "Punch"
+local A_2 = Vector3.new(-1070.5394287109, 31.632320404053, 883.67681884766)
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteEvents.Attack
+Event:FireServer(A_1, A_2)
+local A_1 = "Punch"
+local A_2 = game:GetService("Workspace")["Black Ops"]
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteEvents.Damage
+Event:FireServer(A_1, A_2)
+wait(.1)
+end
+end)
+AutoFarm:Toggle("Boss", "",false, function(State)
+_G.Autotap = State
+  while _G.Autotap do wait()
+local A_1 = "Punch"
+local A_2 = Vector3.new(16.193252563477, 32.98356628418, 1222.3936767578)
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteEvents.Attack
+Event:FireServer(A_1, A_2)
+local A_1 = "Punch"
+local A_2 = game:GetService("Workspace").Boss
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteEvents.Damage
+Event:FireServer(A_1, A_2)
+wait(.1)
+end
+end)
+local Auto = win:Tab("Teleport Worlds", "http://www.roblox.com/asset/?id=6022668888")
+Auto:Button("Dragon Ball Z","", function()
+local A_1 = 0
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteFunctions.WorldTP
+Event:InvokeServer(A_1)
+end)
+Auto:Button("One piece","", function()
+local A_1 = 1
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteFunctions.WorldTP
+Event:InvokeServer(A_1)
+end)
+Auto:Button("Naruto","", function()
+local A_1 = 2
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteFunctions.WorldTP
+Event:InvokeServer(A_1)
+end)
+Auto:Button("My Hero Academy","", function()
+local A_1 = 3
+local Event = game:GetService("ReplicatedStorage").Communication.RemoteFunctions.WorldTP
+Event:InvokeServer(A_1)
+end)
+local Auto = win:Tab("Teleport Player", "http://www.roblox.com/asset/?id=6022668888")
+players = {}
+
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+     table.insert(players,v.Name)
+end
+
+Auto:Dropdown("Select Player", players, function(String)
+    Select1 = String
+end)
+Auto:Button("Teleport","", function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[Select1].Character.HumanoidRootPart.CFrame
+end)
+local tab2 = win:Tab("Misc", "http://www.roblox.com/asset/?id=6022668888")
+tab2:Button("Destroy GUI","",function()
+    game.CoreGui.FluxLib:Destroy()
+end)
+tab2:Slider("Walkspeed", "",0,500,16,function(t)
+    _G.Speed = t
+end)
+tab2:Toggle("Start Walk", "",false, function(t)
+        fast = t
+        while fast do task.wait()
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = _G.Speed
+end
+end)
+tab2:Toggle("Anti Afk","",function(vu)
+    local vu = game:GetService("VirtualUser")
+        game:GetService("Players").LocalPlayer.Idled:connect(function()
+           vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+           wait(1)
+           vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+        end)
+       end)
